@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/com.css">
+
+    <!-- Título da Página -->
+    <title>Protocolo ZB</title>
+    
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=JrEzwC0ByGxh19qDgeq8bbepRXGtCtfId7sLXBZL5hLTblHzsyjl8lUZbEX4LY18iMtpAJ4UprSnFlr5jomCJiAkWDS4kMEa7IP3wXfcQHBpDyCmE5zgWCAg_oqPUqLBgH6UOSpSPApLBrly4iehb4KW1kQBiAhpjx9yABzfRbRXWRPBGJu0wxzCE4ZM36Ir2FVlvbguBbrVrvCmgKivogmpxf3T6TRiDUgdk_treOi9uRYWS874pr1KiDIOF_GwZylTNZE_l6LruOOI_I0zN9oMMDMBTFxPqBfBJ4e6fGN9WxfNYhmFmkKPYSvdgQCvD0eHW1Frw7n9U9-XcZj_6l1kRhFZMkZ_ztv9Lo-QvVwQfIcrzVNyj8i8mzCWcRpXCgBGoNhsxmIXhH8UMKuH1B6FKseuT5t-8Av3OgLuD5TkiVQeZRgb5shl7DG3Eu6JmxDHLURHacdmN_PNvI1W0gxqhTHFIWGpduhDx83_Lgdx4ibHw_BT188NU13qofYnjDvjYT4l26SJWQEK-_smCjK7xs7RVlntHMugH_0V0kNBxv6S6jpaW7pYA5uuCBicu8-tnBeTXriR6-nEGfph6fDzpJy3Q6hfXSbazPdl3ZTJ9QfrFQtGZ7zYPrp-u7Jf8fVQrthQvbW4aZOtFwyd-YYz9D1-oqSZOXAqVnKtfNgx5hfii0zZ0-zMLwh-MVBqWrqHaiJzO7WsOgvYfQ5LX1pWI_GfcowVvoJgIPU8EVU58uB6TrzSyXvZY2v1XvxI6u3jA9Gcj2y6lNGvpq8J2M6PJg_Z-v4ijzv0mgAqI7hqVpedKc5FuuVlM9xMXUz4uJDSKHX3eiBTFk40ARgz9ToqtXHsCrf4Lh7hWmdZ5q6pnkHblAwBXRQZwJ4zTVBwmJ1yY2fuOM8dAwgDKS6Gc6A_CY64M6_9OGX9qCP14MH07iHuBoRlcr_M8kEphqrb6pSbDizMBfFLHfRO8_44E-vlB-ELuhH_entOrzCIena5f_A8VDZgZKwQNCgtFernO4wrYtu0eCd_xtrLOcKI9YQlVSyEyx4a-HUdnAqBIAwqije5nvPnjrNvnmFHX2x_La8J0GTs4P1z_MHc5kbsOyv52kwikNhEMCJdmU9Fi2wudrYLJ8bwG0TOSd0DapvPDgIF4eE59bmY-d1cursemcSXLD2Qzw-V4aivE0QZ-QiT4zbO_ldv1xhfAqyYWRDl1Kf14KXWmdI4rdMtDq0TGc4mgDASkq8gEcyo3Ufcw-A6Wh-soCtcx3EnVUbc0KtUQQPAvsO4RLeOXBQzNCwWMD5RE_TkFwe51cYK7MJGB9dhAY3hebWrtqvzRy066x198ZIA3VJ-mGSCLWkQex4mXz1bwvADUxOZj3ZIWOMXcnF7UIFi-Sfrmp8igY6ipCuy" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMGMtOTgtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy8wN2YwNGFpZW9pNjQ0c3RiMmk2Y2xzbzl2cHVncWlhcy8xYzJpN2pyNDYzMTl1b3ZoODZzMW5lN3Y1aW0za3M0ay8xNjU4NDIxMjI1MDAwLzAyNjIyMTE0ODc5MjUxNzA2MTI3LzE3NTM5NTUxMDQyMDA1MTY3MTIxLzFROEdzRzFVTUhIclF5Snhvb1I1UHNBNmZ0Vi1vbzAzNj9lPWRvd25sb2FkJmF4PUFDeEVBc1lvZU5FWHN4TVBrZC1OT01wem9PR2c4TUU0anlwRFJTMlc0NjRac2c0YmlDZWxUNUs4UGw0UElTTHhkWW9IOXRKUjQ4SzlMYWdlZzhFVjk3cDMzREUzckFBaG9WeDVXZ1Ztbm1sRjRwb3JZSkVzMlZzSER5Sk1XQzZETlJBZlZ3ajUtZkpKWHAydU9KQU9TV29DWmRnT0pBSERwZGl0b0pINWY5SV9aN1lsc0thSDBqQWtZQjBMUW5RUEx5aU55d3NBUlFTZXVuMnowNUJTVUZzT0RUa2ZadmVGM2xWQnFRa3dqZmFHY2NiZzRKYml0OEl0Zy1HWm9lWExBVXktRnhlM0NjSE04SUFwU294MlN6dC1CZUpzRHR1NUpCNWVxMjdHU1JldUNnbXMxWnpQd2dwOExSX2FLRW05aGFDMXlWZXpsTEE0a00tcEpqQU9kUEtLVEtiSV93V3ZfbzBpbWJLN2FJOXBfamRSbDJNNzZqOVk3VDBRVWRHT3Q0M2xmZXRlbUlnZkNCQjBYcUlZdzZtc0VVYmRkZ0c5NnJvRENqc1E5Qk5KMkZEMVZSSHZXU2tSOF9IZnpMbXB6YTMtR1EyNTM5VDA2RXk3ZjFnczJialVMcUgzbzZiNFRGS0R0RW9KaEpnNjFKcFlSZXVUbmdIc3R1eWxMN2Y0YjdjRmlUMDBHUlViSlAxS05MMkZabXAxUXdUU1F0VUtzazRjdFJNM0ZKQzlkZVJCV1hmRHlZTUw4ME1lRXRHX1pGSlZSQklUaW1RWjQtTERGMUZwNkN1Tlp6T1hMclQ0T1NuMmNVeFFlT0xjT3dpVl9oR2MyNG92QXhPeEkxRC10T0I2MDcwVzFKbUxXZUVjVWJpZTJWNmRnbFNaX1pla1NKZzcyTy15RmY5NVJUMWVTT2dDX3FSM0ZBam90U1lPc185WkpfUFRsT09vdEJCaFVnU3ZEQS0xRjEtUHBVSHNTbkRZdnJQNXh0ZGEmdXVpZD0xNThlMTk1MC1mNWZlLTRkYTktYWU2Mi01YzY4ODdmZmIxN2EmYXV0aHVzZXI9MA"/><style type="text/css">
+      body {
+        color: white;
+        background-image: url("assets/img/bg.jpeg");
+        background-color: rgba(0, 0, 0, 0.6);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: darken;
+      }
+    </style>
+
+  </head>
+  <body>
+    
+    <header class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <!-- Imagem Ultrasecreto -->
+            <img class="img-fluid" src="./assets/img/ultrasecreto.svg">
+
+            <!-- Headline -->
+            <h3 class="my-4"><b>Simples Vitamina Que Cria Tecido Anti-Gordura</b></h3>
+
+            <!-- VSL -->
+            <div id="vid_62d9e9499f6c3f000d38cf4a" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_62d9e9499f6c3f000d38cf4a" src="https://images.converteai.net/3416877e-d8a2-415a-bae3-06884f51dd6d/players/62d9e9499f6c3f000d38cf4a/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62d9e9499f6c3f000d38cf4a" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62d9e9499f6c3f000d38cf4a">var s=document.createElement("script");s.src="https://scripts.converteai.net/3416877e-d8a2-415a-bae3-06884f51dd6d/players/62d9e9499f6c3f000d38cf4a/player.js",s.async=!0,document.head.appendChild(s);</script>
+
+            <!-- Botão -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/HdMEGM0" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO OBTER ACESSO!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+            </div>
+
+            <!-- Termos de Uso e Política de Privacidade -->
+            <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 1); // temporização da Call to Action (em milissegundos)
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/com.js"></script>
+  </body>
+</html>
